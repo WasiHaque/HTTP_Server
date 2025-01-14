@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include "utils.h"
+
+int main() {
+    printf("Welcome to my C project!\n");
+
+    // Call a utility function from utils.c
+    int result = add(5, 3);
+    printf("The result of adding 5 and 3 is: %d\n", result);
+
+    // Example of error handling
+    int errorResult = utilityFunction2(5, 0);
+    if (errorResult == -1) {
+        printf("Error: Division by zero.\n");
+    } else {
+        printf("The result of utilityFunction2 is: %d\n", errorResult);
+    }
+
+    return 0;
+}

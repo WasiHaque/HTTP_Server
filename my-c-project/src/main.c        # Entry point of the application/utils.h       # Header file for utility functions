@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include "utils.h"
+
+int main() {
+    printf("Welcome to my C project!\n");
+
+    // Call a utility function from utils.c
+    int result = utilityFunction2(5, 3);
+    printf("The result of adding 5 and 3 is: %d\n", result);
+
+    // Call another utility function
+    float value = utilityFunction3(4.5);
+    printf("The processed value is: %.2f\n", value);
+
+    return 0;
+}
