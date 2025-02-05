@@ -1,8 +1,0 @@
-my-c-project
-├── src
-│   ├── main.c        # Entry point of the application
-│   └── utils.c       # Implementation of utility functions
-├── include
-│   └── utils.h       # Header file for utility functions
-├── Makefile          # Build instructions
-└── README.md         # Project documentation
