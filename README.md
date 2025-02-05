@@ -9,8 +9,10 @@ my-http-server
 ├── src
 │   ├── main.c        # Entry point of the application
 │   └── server.c      # Implementation of the HTTP server
+│   └── utils.c       # Basic operation demonstration
 ├── include
 │   └── server.h      # Header file for the HTTP server
+│   └── utils.h       # Header file for the basic operations
 ├── Makefile          # Build instructions
 └── README.md         # Project documentation
 ```
